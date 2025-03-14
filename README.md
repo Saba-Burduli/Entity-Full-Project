@@ -61,7 +61,7 @@ This project uses **EF Core** to define and manage the entities for the Online E
    ```
 4. Update the database:
    ```sh
-   dotnet ef database update
+   update-database
    ```
 5. Run the application:
    ```sh
