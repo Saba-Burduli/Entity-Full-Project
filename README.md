@@ -100,7 +100,7 @@ This project uses **EF Core** to define and manage the entities for the Online E
 | Journal Entity | /DATA/AttendanceStatus | AttendanceStatus Entity |
 | Journal Entity | /DATA/TeacherSubject | TeacherSubject Entity |
 
-
+<br>
 
 
 ## ✅  Conclusion
