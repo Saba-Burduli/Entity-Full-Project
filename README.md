@@ -1,14 +1,14 @@
-# Online Exam API - README
+# 💡 Online Exam API - README
 
-## Introduction
+## ➡️ Introduction
 This project is an **Online Exam API** built using **ASP.NET Core** and **Entity Framework Core**. It provides functionalities for managing users, roles, exams, questions, options, results, and exam participants. The project follows **RESTful API principles** and utilizes **MSSQL** as the database.
 
 ---
 
-## Entity Framework Core
+## ➡️ Entity Framework Core
 **Entity Framework Core (EF Core)** is a modern object-relational mapper (ORM) for .NET applications. It simplifies data access by allowing developers to work with database entities using **C# objects** instead of writing raw SQL queries.
 
-### Key Features of EF Core:
+### 🔑 Key Features of EF Core:
 - **Code-First Approach**: Define models in C# and generate the database schema.
 - **Migrations**: Version control the database schema and apply changes.
 - **LINQ Queries**: Query the database using LINQ expressions.
