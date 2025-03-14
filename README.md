@@ -104,7 +104,7 @@ This project uses **EF Core** to define and manage the entities for the Online E
 
 ## ✅  Conclusion
 This **Online Exam API** efficiently manages exam-related data using **Entity Framework Core** and **MSSQL (SchoolDB)**. It ensures seamless interaction with the database through EF Core's powerful features.
-
+<br>
 Happy Coding! 🚀
 
 From Comic Solvency (Me) 👽
