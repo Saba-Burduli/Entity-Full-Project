@@ -23,16 +23,18 @@ This project uses **EF Core** to define and manage the entities for the Online E
 **SchoolDB** is the **SQL Server database** used for this project. It stores all the entities related to the Online Exam API.
 
 ### 💡 Tables in SchoolDB:
-- ⚪**Users** : Stores user details such as username, email, and password.
-- ⚪**Roles**: Defines roles like Student, Teacher, and Admin.
-- ⚪**Persons**: Contains personal details linked to users.
-- ⚪**Exams**: Stores exam details such as title, duration, and subject.
-- ⚪**Questions**: Represents questions for an exam.
-- ⚪**Options**: Stores multiple-choice options for each question.
-- ⚪**Results**: Keeps track of students' scores.
-- ⚪**ExamParticipants**: Links users to exams they participate in.
-
-The database schema is maintained and updated using **Entity Framework Migrations**.
+- ⚪**ClassTeacher** : Stores user details such as username, email, and password.
+- ⚪**Grade**: Defines roles like Student, Teacher, and Admin.
+- ⚪**Journal**: Contains personal details linked to users.
+- ⚪**Pupil**: Stores exam details such as title, duration, and subject.
+- ⚪**Role**: Represents questions for an exam.
+- ⚪**Schedule**: Stores multiple-choice options for each question.
+- ⚪**School**: Keeps track of students' scores.
+- ⚪**Subject**: Links users to exams they participate in.
+- ⚪**Teacher**: Keeps track of students' scores.
+- ⚪**Subject**: Links users to exams they participate in.
+- ⚪**AttendanceStatus**: Keeps track of students' scores.
+- ⚪**TeacherSubject**: Links users to exams they participate in.
 
 ---
 
@@ -78,7 +80,6 @@ The database schema is maintained and updated using **Entity Framework Migration
 | Data Layer | /DATA/School/{id} | School Entitiy |
 | Data Layer | /DATA/Subject | Subject Entitiy |
 | Data Layer | /DATA/Teacher/{id} | Teacher Entitiy |
-| Data Layer | /DATA/Subject | Subject Entitiy |
 | Data Layer | /DATA/AttendanceStatus | AttendanceStatus Entity |
 | Data Layer | /DATA/TeacherSubject | TeacherSubject Entity |
 
