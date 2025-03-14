@@ -66,16 +66,25 @@ The database schema is maintained and updated using **Entity Framework Migration
 
 ---
 
-## 🔨 API Endpoints
-| Method | Endpoint | Description |
+## 🔨 Entity framewok Entities
+| layer | Entity name | Description |
 |--------|---------|-------------|
-| GET | /api/users | Get all users |
-| POST | /api/users | Create a new user |
-| GET | /api/exams | Get all exams |
-| POST | /api/exams | Create a new exam |
-| GET | /api/questions/{id} | Get a question by ID |
-| POST | /api/results | Submit an exam result |
+| Data Layer | /DATA/ClassTeacher | ClassTeacher Entitiy |
+| Data Layer | /DATA/Grade | Grade Entitiy |
+| Data Layer | /DATA/Journal | Journal Entitiy |
+| Data Layer | /DATA/Pupil | Pupil Entitiy |
+| Data Layer | /DATA/Role/{id} | Role Entitiy |
+| Data Layer | /DATA/Schedule | Schedule Entitiy |
+| Data Layer | /DATA/School/{id} | School Entitiy |
+| Data Layer | /DATA/Subject | Subject Entitiy |
+| Data Layer | /DATA/Teacher/{id} | Teacher Entitiy |
+| Data Layer | /DATA/Subject | Subject Entitiy |
+| Data Layer | /DATA/AttendanceStatus | AttendanceStatus Entity |
+| Data Layer | /DATA/TeacherSubject | TeacherSubject Entity |
 
+	
+Jan 18, 2025
+TeacherSubject.cs
 ---
 
 ## Conclusion
