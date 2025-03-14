@@ -85,39 +85,21 @@ This project uses **EF Core** to define and manage the entities for the Online E
 
 <br>
 
-## 🔨 Entity framewok Entities
+## 🔨 Entity Classes Configuration
 | Entity Name | Configuration | Description |
 |--------|---------|-------------|
 | Class Entity | /Class/ClassConfiguration | ClassTeacher Entitiy |
 | Journal Entity | /Journal/JournalConfiguration | Grade Entitiy |
 | Pupil Entity | /Pupil/PupilConfiguration | Journal Entitiy |
 | Role Entity | /Role/RoleConfiguration | Pupil Entitiy |
-| Journal Entity | /DATA/Role/{id} | Role Entitiy |
-| Journal Entity | /DATA/Schedule | Schedule Entitiy |
-| Journal Entity | /DATA/School/{id} | School Entitiy |
-| Journal Entity | /DATA/Subject | Subject Entitiy |
+| Schedule Entity | /Schedule/ScheduleConfiguration/{id} | Role Entitiy |
+| School Entity | /School/SchoolConfiguration | Schedule Entitiy |
+| Teacher Entity | /Teacher/TeacherConfiguration/{id} | School Entitiy |
+| Journal Entity | /Journal/JournalConfiguration | Subject Entitiy |
 | Journal Entity | /DATA/Teacher/{id} | Teacher Entitiy |
 | Journal Entity | /DATA/AttendanceStatus | AttendanceStatus Entity |
 | Journal Entity | /DATA/TeacherSubject | TeacherSubject Entity |
 
-
-ScheduleConfiguration.cs
-
-SchoolConfiguration.cs
-
-TeacherConfiguration.csClassConfiguration.cs
-
-JournalConfiguration.cs
-
-PupilConfiguration.cs
-
-RoleConfiguration.cs
-
-ScheduleConfiguration.cs
-
-SchoolConfiguration.cs
-	
-TeacherConfiguration.cs
 
 
 
