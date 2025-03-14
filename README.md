@@ -88,17 +88,14 @@ This project uses **EF Core** to define and manage the entities for the Online E
 ## 🔨 Entity Classes Configuration
 | Entity Name | Configuration | Description |
 |--------|---------|-------------|
-| Class Entity | /Class/ClassConfiguration | ClassTeacher Entitiy |
-| Journal Entity | /Journal/JournalConfiguration | Grade Entitiy |
-| Pupil Entity | /Pupil/PupilConfiguration | Journal Entitiy |
-| Role Entity | /Role/RoleConfiguration | Pupil Entitiy |
-| Schedule Entity | /Schedule/ScheduleConfiguration/{id} | Role Entitiy |
-| School Entity | /School/SchoolConfiguration | Schedule Entitiy |
-| Teacher Entity | /Teacher/TeacherConfiguration/{id} | School Entitiy |
-| Journal Entity | /Journal/JournalConfiguration | Subject Entitiy |
-| Journal Entity | /DATA/Teacher/{id} | Teacher Entitiy |
-| Journal Entity | /DATA/AttendanceStatus | AttendanceStatus Entity |
-| Journal Entity | /DATA/TeacherSubject | TeacherSubject Entity |
+| Class Entity | /Class/ClassConfiguration | ClassConfiguration |
+| Journal Entity | /Journal/JournalConfiguration | JournalConfiguration |
+| Pupil Entity | /Pupil/PupilConfiguration | PupilConfiguration |
+| Role Entity | /Role/RoleConfiguration | RoleConfiguration |
+| Schedule Entity | /Schedule/ScheduleConfiguration/{id} | ScheduleConfiguration |
+| School Entity | /School/SchoolConfiguration | SchoolConfiguration |
+| Teacher Entity | /Teacher/TeacherConfiguration/{id} | TeacherConfiguration |
+| Journal Entity | /Journal/JournalConfiguration | JournalConfiguration |
 
 <br>
 
