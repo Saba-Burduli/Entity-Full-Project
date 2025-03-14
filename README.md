@@ -42,7 +42,7 @@ This project uses **EF Core** to define and manage the entities for the Online E
 
 ## 🕚 Getting Started
 ### Prerequisites:
-- **.NET 7+**
+- **.NET 9.0.0**
 - **SQL Server (MSSQL)**
 - **Entity Framework Core**
 
