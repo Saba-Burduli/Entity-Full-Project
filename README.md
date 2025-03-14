@@ -82,10 +82,6 @@ The database schema is maintained and updated using **Entity Framework Migration
 | Data Layer | /DATA/AttendanceStatus | AttendanceStatus Entity |
 | Data Layer | /DATA/TeacherSubject | TeacherSubject Entity |
 
-	
-Jan 18, 2025
-TeacherSubject.cs
----
 
 ## Conclusion
 This **Online Exam API** efficiently manages exam-related data using **Entity Framework Core** and **MSSQL (SchoolDB)**. It ensures seamless interaction with the database through EF Core's powerful features.
