@@ -36,7 +36,7 @@ The database schema is maintained and updated using **Entity Framework Migration
 
 ---
 
-## Getting Started
+## 🕚 Getting Started
 ### Prerequisites:
 - **.NET 7+**
 - **SQL Server (MSSQL)**
