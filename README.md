@@ -66,7 +66,7 @@ The database schema is maintained and updated using **Entity Framework Migration
 
 ---
 
-## API Endpoints
+## 🔨 API Endpoints
 | Method | Endpoint | Description |
 |--------|---------|-------------|
 | GET | /api/users | Get all users |
