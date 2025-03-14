@@ -17,6 +17,7 @@ This project is an **Online Exam API** built using **ASP.NET Core** and **Entity
 
 This project uses **EF Core** to define and manage the entities for the Online Exam API.
 
+
 ---
 
 ## 🏫📚 SchoolDB (Database)
