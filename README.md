@@ -20,6 +20,7 @@ This project uses **EF Core** to define and manage the entities for the Online E
 
 ---
 
+
 ## 🏫📚 SchoolDB (Database)
 **SchoolDB** is the **SQL Server database** used for this project. It stores all the entities related to the Online Exam API.
 
