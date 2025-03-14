@@ -23,14 +23,14 @@ This project uses **EF Core** to define and manage the entities for the Online E
 **SchoolDB** is the **SQL Server database** used for this project. It stores all the entities related to the Online Exam API.
 
 ### 💡 Tables in SchoolDB:
-- 💡**Users** : Stores user details such as username, email, and password.
-- 💡**Roles**: Defines roles like Student, Teacher, and Admin.
-- 💡**Persons**: Contains personal details linked to users.
-- 💡**Exams**: Stores exam details such as title, duration, and subject.
-- 💡**Questions**: Represents questions for an exam.
-- 💡**Options**: Stores multiple-choice options for each question.
-- 💡**Results**: Keeps track of students' scores.
-- 💡**ExamParticipants**: Links users to exams they participate in.
+- ⚪**Users** : Stores user details such as username, email, and password.
+- ⚪**Roles**: Defines roles like Student, Teacher, and Admin.
+- ⚪**Persons**: Contains personal details linked to users.
+- ⚪**Exams**: Stores exam details such as title, duration, and subject.
+- ⚪**Questions**: Represents questions for an exam.
+- ⚪**Options**: Stores multiple-choice options for each question.
+- ⚪**Results**: Keeps track of students' scores.
+- ⚪**ExamParticipants**: Links users to exams they participate in.
 
 The database schema is maintained and updated using **Entity Framework Migrations**.
 
