@@ -87,6 +87,21 @@ This project uses **EF Core** to define and manage the entities for the Online E
 
 <br>
 
+## 🔨 Entity framewok Entities
+| layer | Entity name | Description |
+|--------|---------|-------------|
+| Data Layer | /DATA/ClassTeacher | ClassTeacher Entitiy |
+| Data Layer | /DATA/Grade | Grade Entitiy |
+| Data Layer | /DATA/Journal | Journal Entitiy |
+| Data Layer | /DATA/Pupil | Pupil Entitiy |
+| Data Layer | /DATA/Role/{id} | Role Entitiy |
+| Data Layer | /DATA/Schedule | Schedule Entitiy |
+| Data Layer | /DATA/School/{id} | School Entitiy |
+| Data Layer | /DATA/Subject | Subject Entitiy |
+| Data Layer | /DATA/Teacher/{id} | Teacher Entitiy |
+| Data Layer | /DATA/AttendanceStatus | AttendanceStatus Entity |
+| Data Layer | /DATA/TeacherSubject | TeacherSubject Entity |
+
 
 ## ✅  Conclusion
 This **Online Exam API** efficiently manages exam-related data using **Entity Framework Core** and **MSSQL (SchoolDB)**. It ensures seamless interaction with the database through EF Core's powerful features.
